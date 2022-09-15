@@ -14,7 +14,7 @@
 </ul>
 
 <h3>Базовые функции</h3>
-<p>Базовый функционал описан в файле <a href="./core/basefunction.php">basefunction.php</a></p>
+<p>Базовый функционал описан в файле <a href="example-app/core/basefunction.php">basefunction.php</a></p>
 <ol>
     <li><b>session(name)</b> - name название идентификатора в сессии, получает значение данного элемента.</li>
     <li><b>has_session(name)</b> - name название идентификатора в сессии, проверяет существует ли элемент.</li>
@@ -23,7 +23,7 @@
 </ol>
 
 <h3>Представление и его функционал</h3>
-<p>Представление описано в файле <a href="./core/view.php">view.php</a></p>
+<p>Представление описано в файле <a href="example-app/core/view.php">view.php</a></p>
 <ol>
     <li><b>$isError(name, input = false)</b> - генерирует вывод ошибок автоматически для полей.<br>
     <b>name</b> - содержит в себе наименования идентификатора поля input из атрибута name<br>
